@@ -49,6 +49,5 @@ x2=seq(from=50.5, to=52.3, by=0.1)
 y2=dnorm(x1, mean = mu, sd = se)
 polygon(c(lower_bound,x2,52.3),c(0,y2,0),col="blue")
 cat("(i) The probability that the mean of the sample will exceed 52.9 is :", round(P_xbar_52.9,4), "\n")
-cat("(ii) The probability that the mean of the sample will fall between 50.5 and 52.3 is:", 
-round(P_xbar_50.5_52.3,4), "\n")
+cat("(ii) The probability that the mean of the sample will fall between 50.5 and 52.3 is:", round(P_xbar_50.5_52.3,4), "\n")
 cat("(iii) The probability that the mean of the sample will be less than 50.6 is :", round(P_xbar_50.6,4), "\n")
